@@ -7,3 +7,8 @@ packages:
   gitUrl: https://github.com/levjason
   gitUsername: levjason
   gitBranch: main
+services:
+- serviceName: project.test.integrations:fs2
+  packages:
+  - name: TestProject
+    version: "1.0"
